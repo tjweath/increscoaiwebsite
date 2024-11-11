@@ -11,9 +11,9 @@ const Hero = () => {
       </div>
 
       {/* Floating circles */}
-      <div className="absolute top-1/4 left-1/4 w-3 h-3 rounded-full bg-white border border-gray-200"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-3 h-3 rounded-full bg-white border border-gray-200"></div>
-      <div className="absolute top-1/3 right-1/3 w-3 h-3 rounded-full bg-white border border-gray-200"></div>
+      <div className="absolute top-1/4 left-1/4 w-3 h-3 rounded-full bg-white border-2 border-gray-200"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-3 h-3 rounded-full bg-white border-2 border-gray-200"></div>
+      <div className="absolute top-1/3 right-1/3 w-3 h-3 rounded-full bg-white border-2 border-gray-200"></div>
       
       <div className="relative z-10 max-w-[1200px] mx-auto px-6 text-center">
         <h1 className="text-[80px] leading-[1] font-medium tracking-[-0.02em] text-[#141413] mb-8">
@@ -37,11 +37,11 @@ const Hero = () => {
           Book a demo
         </button>
 
-        <div className="max-w-[800px] mx-auto">
+        <div className="max-w-[800px] mx-auto border-4 border-gray-200 rounded-xl shadow-xl overflow-hidden">
           <img 
             src="https://antimetal.com/images/hero/preview.png" 
             alt="Antimetal Demo Preview" 
-            className="w-full h-auto rounded-lg shadow-lg animate-float"
+            className="w-full h-auto"
           />
         </div>
       </div>
