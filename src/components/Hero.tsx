@@ -1,52 +1,41 @@
 const Hero = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center dot-pattern">
-      <div className="absolute inset-0 bg-gradient-to-b from-surface to-transparent"></div>
+    <div className="relative min-h-screen flex items-center justify-center">
+      {/* Background pattern */}
+      <div className="absolute inset-0 bg-[#F8FAFF]">
+        <div className="absolute inset-0" style={{
+          backgroundImage: `radial-gradient(circle at center, #E2E8F3 2px, transparent 2px)`,
+          backgroundSize: '48px 48px',
+          opacity: 0.5
+        }}></div>
+      </div>
+
+      {/* Floating circles */}
+      <div className="absolute top-1/4 left-1/4 w-3 h-3 rounded-full bg-white border border-gray-200"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-3 h-3 rounded-full bg-white border border-gray-200"></div>
+      <div className="absolute top-1/3 right-1/3 w-3 h-3 rounded-full bg-white border border-gray-200"></div>
       
-      <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-float">
-          Save time & money on AWS
+      <div className="relative z-10 max-w-[1200px] mx-auto px-6 text-center">
+        <h1 className="text-[80px] leading-[1] font-medium tracking-[-0.02em] text-[#141413] mb-8">
+          Save time &<br />money on AWS
         </h1>
-        <p className="text-xl md:text-2xl text-secondary max-w-2xl mx-auto mb-12">
-          Savings, visibility, and infrastructure guardrails.
-          <br />
-          One automated platform.
-        </p>
-        <button className="bg-highlight px-8 py-4 rounded-full text-lg font-medium hover:bg-opacity-90 transition-all duration-300 shadow-lg">
+        
+        <div className="max-w-[600px] mx-auto mb-12">
+          <p className="text-xl text-[#141413]/80">
+            Savings, visibility, and infrastructure guardrails.
+            <br />
+            One automated platform.
+          </p>
+        </div>
+
+        <button className="inline-flex items-center gap-2 bg-[#F2FF44] text-[#141413] px-6 py-3 rounded-lg font-medium hover:bg-[#E6FF00] transition-colors">
+          <span className="w-4 h-4">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </span>
           Book a demo
         </button>
-
-        <div className="mt-24 glass rounded-3xl p-8 shadow-lg">
-          <div className="flex items-center justify-between mb-8">
-            <div className="flex items-center space-x-4">
-              <div className="w-8 h-8 bg-primary rounded-lg"></div>
-              <span className="text-lg">All Accounts</span>
-              <span className="text-lg">Dashboard</span>
-            </div>
-            <div className="flex space-x-4 text-sm text-secondary">
-              <span>1M</span>
-              <span>3M</span>
-              <span>6M</span>
-              <span>1Y</span>
-              <span>ALL</span>
-            </div>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-              <h3 className="text-3xl font-bold mb-2">$50,104</h3>
-              <p className="text-secondary">Net spend</p>
-            </div>
-            <div>
-              <h3 className="text-3xl font-bold mb-2">$20,062</h3>
-              <p className="text-secondary">Saved</p>
-            </div>
-            <div>
-              <h3 className="text-3xl font-bold mb-2">$5,910</h3>
-              <p className="text-secondary">Pending savings</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

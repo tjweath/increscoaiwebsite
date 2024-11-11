@@ -1,44 +1,24 @@
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
-
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <nav className="fixed w-full z-50 px-6 py-4">
-      <div className="max-w-7xl mx-auto">
-        <div className="glass rounded-full px-6 py-3 flex justify-between items-center">
-          <div className="text-xl font-semibold">Antimetal</div>
-          
-          <div className="hidden md:flex space-x-8">
-            <a href="#features" className="text-primary hover:text-secondary transition-colors">Enterprise</a>
-            <a href="#pricing" className="text-primary hover:text-secondary transition-colors">Pricing</a>
-            <a href="#docs" className="text-primary hover:text-secondary transition-colors">Docs</a>
-            <a href="#faq" className="text-primary hover:text-secondary transition-colors">FAQ</a>
-          </div>
-
-          <div className="hidden md:flex items-center">
-            <button className="text-primary hover:text-secondary transition-colors">
-              Sign in
-            </button>
-          </div>
-
-          <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? <X /> : <Menu />}
-          </button>
+      <div className="max-w-[1200px] mx-auto flex justify-between items-center">
+        <div className="flex items-center gap-2">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+          <span className="font-medium text-[#141413]">Antimetal</span>
+        </div>
+        
+        <div className="hidden md:flex items-center gap-8">
+          <a href="#enterprise" className="text-[#141413] hover:text-[#141413]/80 transition-colors">Enterprise</a>
+          <a href="#pricing" className="text-[#141413] hover:text-[#141413]/80 transition-colors">Pricing</a>
+          <a href="#docs" className="text-[#141413] hover:text-[#141413]/80 transition-colors">Docs</a>
+          <a href="#faq" className="text-[#141413] hover:text-[#141413]/80 transition-colors">FAQ</a>
         </div>
 
-        {isOpen && (
-          <div className="md:hidden glass mt-2 rounded-2xl p-4">
-            <div className="flex flex-col space-y-4">
-              <a href="#features" className="text-primary hover:text-secondary transition-colors">Enterprise</a>
-              <a href="#pricing" className="text-primary hover:text-secondary transition-colors">Pricing</a>
-              <a href="#docs" className="text-primary hover:text-secondary transition-colors">Docs</a>
-              <a href="#faq" className="text-primary hover:text-secondary transition-colors">FAQ</a>
-              <a href="#signin" className="text-primary hover:text-secondary transition-colors">Sign in</a>
-            </div>
-          </div>
-        )}
+        <button className="text-[#141413] font-medium hover:text-[#141413]/80 transition-colors">
+          Sign in
+        </button>
       </div>
     </nav>
   );
