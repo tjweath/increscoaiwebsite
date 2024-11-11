@@ -28,7 +28,7 @@ export default {
         secondary: "#828179",
         accent: "#C4C3BB",
         muted: "#A3A299",
-        highlight: "#EBDBBC",
+        highlight: "#F2FF44",
         surface: "#FAFAF8",
       },
       keyframes: {

@@ -5,13 +5,14 @@ const Hero = () => {
       
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-float">
-          Simplify Your Digital Experience
+          Save time & money on AWS
         </h1>
         <p className="text-xl md:text-2xl text-secondary max-w-2xl mx-auto mb-12">
-          Streamline your workflow with our intuitive platform designed for modern teams
+          Savings, velocity, and infrastructure guardrails.
+          One automated platform.
         </p>
-        <button className="glass px-8 py-4 rounded-full text-lg font-medium hover:bg-opacity-20 transition-all duration-300 shadow-lg">
-          Get Started
+        <button className="bg-highlight px-8 py-4 rounded-full text-lg font-medium hover:bg-opacity-90 transition-all duration-300 shadow-lg">
+          Book a demo
         </button>
       </div>
     </div>
