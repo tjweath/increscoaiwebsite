@@ -15,8 +15,7 @@ const clients = [
 
 const Clients = () => {
   return (
-    <section>
-      {/* Removed the div with class max-w-7xl mx-auto */}
+    <>
       <h2 className="text-2xl font-semibold text-center mb-12 text-secondary">
         Making the cloud effortless for thousands of companies
       </h2>
@@ -31,7 +30,7 @@ const Clients = () => {
           </div>
         ))}
       </div>
-    </section>
+    </>
   );
 };
 
