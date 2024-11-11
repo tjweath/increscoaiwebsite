@@ -15,7 +15,7 @@ const clients = [
 
 const Clients = () => {
   return (
-    <section className="py-24 px-6">
+    <section>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl font-semibold text-center mb-12 text-secondary">
           Making the cloud effortless for thousands of companies
