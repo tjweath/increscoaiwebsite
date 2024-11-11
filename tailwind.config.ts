@@ -30,10 +30,6 @@ export default {
         muted: "#A3A299",
         highlight: "#F2FF44",
         surface: "#FAFAF8",
-        "neutral-opaque-4": "rgba(255, 255, 255, 0.04)",
-        "neutral-opaque-6": "rgba(255, 255, 255, 0.06)",
-        "neutral-opaque-8": "rgba(255, 255, 255, 0.08)",
-        "neutral-opaque-10": "rgba(255, 255, 255, 0.1)",
       },
       keyframes: {
         "accordion-down": {
@@ -47,17 +43,12 @@ export default {
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10px)' },
-        },
-        dots: {
-          '0%': { transform: 'translateY(0)' },
-          '100%': { transform: 'translateY(-160px)' },
         }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "float": "float 6s ease-in-out infinite",
-        "dots": "dots 2s linear infinite",
       },
     },
   },

@@ -44,7 +44,3 @@
   background-image: radial-gradient(circle at 1px 1px, #828179 1px, transparent 0);
   background-size: 24px 24px;
 }
-
-.inside-border {
-  @apply absolute inset-0 pointer-events-none rounded-[inherit];
-}
