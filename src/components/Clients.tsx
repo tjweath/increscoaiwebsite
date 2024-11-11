@@ -16,10 +16,6 @@ const clients = [
 const Clients = () => {
   return (
     <>
-      <h2 className="text-2xl font-semibold text-center mb-12 text-secondary">
-        Making the cloud effortless for thousands of companies
-      </h2>
-      
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
         {clients.map((client, index) => (
           <div
