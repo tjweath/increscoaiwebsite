@@ -28,7 +28,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <button className="inline-flex items-center gap-2 bg-[#F2FF44] text-[#141413] px-6 py-3 rounded-lg font-medium hover:bg-[#E6FF00] transition-colors">
+        <button className="inline-flex items-center gap-2 bg-[#F2FF44] text-[#141413] px-6 py-3 rounded-lg font-medium hover:bg-[#E6FF00] transition-colors mb-12">
           <span className="w-4 h-4">
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -36,6 +36,14 @@ const Hero = () => {
           </span>
           Book a demo
         </button>
+
+        <div className="max-w-[800px] mx-auto">
+          <img 
+            src="https://antimetal.com/images/hero/preview.png" 
+            alt="Antimetal Demo Preview" 
+            className="w-full h-auto rounded-lg shadow-lg animate-float"
+          />
+        </div>
       </div>
     </div>
   );
