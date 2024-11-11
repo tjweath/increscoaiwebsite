@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center">
+    <div className="relative min-h-screen flex items-center justify-center pt-24">
       {/* Background pattern */}
       <div className="absolute inset-0 bg-[#F8FAFF]">
         <div className="absolute inset-0" style={{
