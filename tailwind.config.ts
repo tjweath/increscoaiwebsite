@@ -26,10 +26,10 @@ export default {
         foreground: "hsl(var(--foreground))",
         primary: "#1A1F2C",
         secondary: "#8E9196",
-        accent: "#9b87f5",
-        muted: "#7E69AB",
-        highlight: "#D6BCFA",
-        surface: "#F6F6F7",
+        accent: "#0FA0CE",
+        muted: "#4A5568",
+        highlight: "#8B5CF6",
+        surface: "#0F1117",
       },
       keyframes: {
         "accordion-down": {
