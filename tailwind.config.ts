@@ -24,12 +24,12 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        primary: "#141413",
-        secondary: "#828179",
-        accent: "#C4C3BB",
-        muted: "#A3A299",
-        highlight: "#F2FF44",
-        surface: "#FAFAF8",
+        primary: "#1A1F2C",
+        secondary: "#8E9196",
+        accent: "#9b87f5",
+        muted: "#7E69AB",
+        highlight: "#D6BCFA",
+        surface: "#F6F6F7",
       },
       keyframes: {
         "accordion-down": {
