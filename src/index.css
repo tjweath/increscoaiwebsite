@@ -32,21 +32,21 @@
     @apply border-border;
   }
   body {
-    @apply bg-surface text-white antialiased;
+    @apply bg-white text-gray-900 antialiased;
   }
 }
 
 .glass {
-  @apply bg-white/5 backdrop-blur-lg border border-white/10;
+  @apply bg-black/5 backdrop-blur-lg border border-black/10;
 }
 
 .dot-pattern {
-  background-image: radial-gradient(circle at 1px 1px, #8E9196 2px, transparent 0);
+  background-image: radial-gradient(circle at 1px 1px, #1A1F2C 2px, transparent 0);
   background-size: 24px 24px;
 }
 
 .gradient-bg {
-  background: linear-gradient(to right, #1A1F2C 0%, #2D3748 100%);
+  background: linear-gradient(to right, #f8fafc 0%, #f1f5f9 100%);
 }
 
 .purple-gradient {
