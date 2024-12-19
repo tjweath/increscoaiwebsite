@@ -7,7 +7,7 @@ const Hero = () => {
       
       <div className="relative z-10 max-w-[1200px] mx-auto px-6 text-center">
         <h1 className="text-5xl md:text-7xl font-medium tracking-tight text-gray-900 mb-8 max-w-[900px] mx-auto leading-[1.1]">
-          AI Solutions to Pivot<br />Your Business Forward
+          Business Transformation with AI
         </h1>
         
         <div className="max-w-[600px] mx-auto mb-12">
