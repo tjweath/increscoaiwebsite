@@ -10,10 +10,10 @@ const About = () => {
               Incresco AI was founded in 2024 by Tim Weatherseed, a seasoned professional with over 20 years of experience across diverse industries. For the past seven years, Tim has worked on API integrations, gaining invaluable expertise in connecting systems to drive improved business efficiencies.
             </p>
             <p className="text-lg text-gray-600">
-              Recognising how AI and APIs complement each other, Tim established Incresco AI to help businesses leverage these technologies together. By combining the power of AI automation with robust integrations, Incresco AI delivers solutions that streamline workflows, enhance customer experiences, and unlock new opportunities for growth.
+              By combining the power of AI automation with robust integrations, Incresco AI delivers solutions that streamline workflows, enhance customer experiences, and unlock new opportunities for growth.
             </p>
             <p className="text-lg text-gray-600">
-              At Incresco AI, we believe in crafting tailored strategies that fit your business. We're passionate about using technology to empower your success and deliver transformative solutions.
+              Tim is passionate about using technology to empower your success and deliver transformative solutions.
             </p>
           </div>
           
