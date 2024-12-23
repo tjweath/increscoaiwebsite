@@ -12,7 +12,7 @@ const Hero = () => {
         
         <div className="max-w-[600px] mx-auto mb-12">
           <p className="text-lg text-gray-600">
-            Welcome to Incresco AI, where we bring the power of artificial intelligence to your business. Inspired by the Latin 'incresco,' meaning growth and progress, our mission is to identify and automate repetitive tasks, unlocking efficiency, innovation, and your business's full potential.
+            Welcome to Incresco AI, where we bring the power of artificial intelligence to your business. Inspired by the Latin 'incresco,' meaning growth and progress, we craft solutions that enhance efficiency, streamline interactions, and unlock innovation.
           </p>
         </div>
 
