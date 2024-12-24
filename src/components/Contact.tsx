@@ -4,13 +4,13 @@ const Contact = () => {
       <div className="max-w-[800px] mx-auto px-6 text-center">
         <div className="space-y-3">
           <a 
-            href="mailto:tim@pivot-ai.org"
+            href="mailto:tim@increscoai.com"
             className="flex items-center justify-center gap-2 text-base text-gray-600 hover:text-gray-900 transition-colors"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
-            tim@pivot-ai.org
+            tim@increscoai.com
           </a>
           <a 
             href="https://www.linkedin.com/in/tim-weatherseed-0b35b14b/" 
