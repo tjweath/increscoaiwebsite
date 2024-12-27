@@ -23,6 +23,21 @@ const Contact = () => {
             </svg>
             LinkedIn
           </a>
+          <div className="mt-4">
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+            <a 
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                // @ts-ignore
+                window.Calendly?.initPopupWidget({url: 'https://calendly.com/tim-increscoai/30min'});
+              }}
+              className="text-base text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              Schedule time with Tim
+            </a>
+          </div>
         </div>
       </div>
     </section>
