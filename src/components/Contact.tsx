@@ -24,14 +24,17 @@ const Contact = () => {
             LinkedIn
           </a>
           <div className="mt-4">
-            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
-            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
             <a 
-              href="#"
+              href=""
               onClick={(e) => {
                 e.preventDefault();
-                // @ts-ignore
-                window.Calendly?.initPopupWidget({url: 'https://calendly.com/tim-increscoai/30min'});
+                const script = document.createElement('script');
+                script.src = 'https://assets.calendly.com/assets/external/widget.js';
+                script.onload = () => {
+                  // @ts-ignore
+                  window.Calendly?.initPopupWidget({url: 'https://calendly.com/tim-increscoai/30min'});
+                };
+                document.head.appendChild(script);
               }}
               className="text-base text-gray-600 hover:text-gray-900 transition-colors"
             >
