@@ -16,6 +16,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-8">
           <button onClick={scrollToTop} className="text-gray-600 hover:text-gray-900 transition-colors text-sm">HOME</button>
           <a href="#services" className="text-gray-600 hover:text-gray-900 transition-colors text-sm">SERVICES</a>
+          <a href="#process" className="text-gray-600 hover:text-gray-900 transition-colors text-sm">PROCESS</a>
           <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors text-sm">ABOUT</a>
           <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors text-sm">CONTACT</a>
         </div>
