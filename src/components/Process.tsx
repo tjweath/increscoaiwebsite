@@ -32,7 +32,7 @@ const Process = () => {
               },
               {
                 title: "On-going Support",
-                description: "Continuously optimise, update, and support your solution as your business grows.",
+                description: "Optimise, update, and support your solution as your business grows.",
                 delay: "300"
               }
             ].map((item, index) => (
