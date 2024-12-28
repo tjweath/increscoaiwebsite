@@ -17,7 +17,7 @@ const Process = () => {
             {[
               {
                 title: "Discovery",
-                description: "Understand your business challenges and uncover opportunities where AI can make a difference.",
+                description: "Understand your business challenges and explore how AI can help.",
                 delay: "0"
               },
               {
