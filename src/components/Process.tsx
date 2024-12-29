@@ -38,7 +38,7 @@ const Process = () => {
             ].map((item, index) => (
               <div
                 key={item.title}
-                className="bg-white p-6 rounded-lg shadow-lg relative z-10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl"
+                className="bg-white p-6 rounded-lg shadow-lg relative z-10 transform hover:-translate-y-4 hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-2xl"
                 style={{
                   animation: `fade-in 0.5s ease-out ${item.delay}ms forwards`,
                   opacity: 0
