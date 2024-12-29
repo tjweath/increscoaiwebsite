@@ -17,11 +17,11 @@ const About = () => {
             </p>
           </div>
           
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center">
             <img 
               src="/lovable-uploads/8ca244df-ba6e-4523-b490-116246f70626.png"
               alt="Tim Weatherseed, Founder of Incresco AI"
-              className="w-[400px] h-[400px] object-cover rounded-xl shadow-lg"
+              className="w-[400px] h-[400px] object-contain rounded-xl shadow-lg"
             />
           </div>
         </div>
