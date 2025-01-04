@@ -23,38 +23,6 @@ const Contact = () => {
             </svg>
             LinkedIn
           </a>
-          <div className="mt-4">
-            <a 
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                // Add CSS
-                const link = document.createElement('link');
-                link.href = 'https://assets.calendly.com/assets/external/widget.css';
-                link.rel = 'stylesheet';
-                document.head.appendChild(link);
-                
-                // Add JS
-                const script = document.createElement('script');
-                script.src = 'https://assets.calendly.com/assets/external/widget.js';
-                script.onload = () => {
-                  setTimeout(() => {
-                    // @ts-ignore
-                    if (window.Calendly) {
-                      // @ts-ignore
-                      window.Calendly.initPopupWidget({
-                        url: 'https://calendly.com/tim-increscoai/30min'
-                      });
-                    }
-                  }, 100);
-                };
-                document.head.appendChild(script);
-              }}
-              className="text-base text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              Schedule time with Tim
-            </a>
-          </div>
         </div>
       </div>
     </section>
