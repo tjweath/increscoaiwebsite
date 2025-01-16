@@ -1,5 +1,3 @@
-import { ThemeToggle } from "./ThemeToggle";
-
 const Navbar = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -21,7 +19,6 @@ const Navbar = () => {
           <a href="#process" className="text-foreground/70 hover:text-foreground transition-colors text-sm">PROCESS</a>
           <a href="#about" className="text-foreground/70 hover:text-foreground transition-colors text-sm">ABOUT</a>
           <a href="#contact" className="text-foreground/70 hover:text-foreground transition-colors text-sm">CONTACT</a>
-          <ThemeToggle />
         </div>
       </div>
     </nav>
