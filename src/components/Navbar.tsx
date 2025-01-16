@@ -1,3 +1,5 @@
+import { ThemeToggle } from "./ThemeToggle";
+
 const Navbar = () => {
   const scrollToTop = () => {
     window.scrollTo({
