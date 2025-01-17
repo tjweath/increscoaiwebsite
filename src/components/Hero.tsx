@@ -25,27 +25,31 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1000px] mx-auto mb-24">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1000px] mx-auto mb-8">
           <div className="p-6 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm hover:shadow-md transition-shadow">
             <h3 className="text-lg font-medium text-gray-900 mb-2">Increased Efficiency</h3>
-            <p className="text-gray-600 text-sm">Streamline operations and boost productivity through AI automation</p>
+            <p className="text-gray-600 text-sm">Unlock new levels of productivity through AI-driven solutions aligned to your existing workflows</p>
           </div>
           
           <div className="p-6 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm hover:shadow-md transition-shadow">
             <h3 className="text-lg font-medium text-gray-900 mb-2">Cost Savings</h3>
-            <p className="text-gray-600 text-sm">Reduce operational costs through intelligent process optimization</p>
+            <p className="text-gray-600 text-sm">Reduce operational costs by identifying the most impactful areas for intelligent process optimisation</p>
           </div>
           
           <div className="p-6 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm hover:shadow-md transition-shadow">
             <h3 className="text-lg font-medium text-gray-900 mb-2">Enhanced Experience</h3>
-            <p className="text-gray-600 text-sm">Deliver superior customer service through AI-powered solutions</p>
+            <p className="text-gray-600 text-sm">Boost customer satisfaction through the right mix of AI-powered interactions—whether chatbots, voice agents, or data-driven insights</p>
           </div>
           
           <div className="p-6 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm hover:shadow-md transition-shadow">
             <h3 className="text-lg font-medium text-gray-900 mb-2">Better Insights</h3>
-            <p className="text-gray-600 text-sm">Make data-driven decisions with advanced analytics</p>
+            <p className="text-gray-600 text-sm">Make confident, data-driven decisions by leveraging advanced analytics customised to your business needs</p>
           </div>
         </div>
+
+        <p className="text-gray-600 text-lg mb-24">
+          We help clients achieve one or all of these core benefits, depending on their unique goals and processes.
+        </p>
       </div>
     </div>
   );
