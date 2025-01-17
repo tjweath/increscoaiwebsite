@@ -32,8 +32,8 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="/lovable-uploads/5dd65107-1c4c-4adc-ba8f-196443b975ec.png"
-                alt="Abstract geometric illustration representing efficiency"
+                src="/photo-1518770660439-4636190af475"
+                alt="Neural network visualization with interconnected nodes"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -47,8 +47,8 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="/lovable-uploads/e2f0a8c6-e34d-466a-8c8b-cb0ec191a5db.png"
-                alt="Modern illustration showing cost optimization"
+                src="/photo-1461749280684-dccba630e2f6"
+                alt="Abstract data visualization representing AI processing"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -62,8 +62,8 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="/lovable-uploads/3b7b484b-8fe0-4833-860a-f2e75c2c6b5f.png"
-                alt="Abstract pattern showing enhanced experience"
+                src="/photo-1487058792275-0ad4aaf24ca7"
+                alt="Digital network visualization showing AI connections"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -77,8 +77,8 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="/lovable-uploads/8ca244df-ba6e-4523-b490-116246f70626.png"
-                alt="Geometric illustration representing data insights"
+                src="/photo-1531297484001-80022131f5a1"
+                alt="Abstract data visualization showing AI analytics"
                 className="w-full h-full object-cover"
               />
             </div>
