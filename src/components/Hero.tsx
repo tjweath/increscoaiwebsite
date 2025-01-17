@@ -27,74 +27,73 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="space-y-8 max-w-[1000px] mx-auto">
-          {/* First Row */}
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
-              <img 
-                src="/lovable-uploads/5dd65107-1c4c-4adc-ba8f-196443b975ec.png"
-                alt="Abstract geometric illustration representing efficiency with circular patterns"
-                className="w-full h-full object-cover"
-              />
-            </div>
+      <div className="space-y-8 max-w-[1000px] mx-auto">
+        {/* First Row */}
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
+            <img 
+              src="/lovable-uploads/5dd65107-1c4c-4adc-ba8f-196443b975ec.png"
+              alt="Abstract geometric illustration representing efficiency"
+              className="w-full h-full object-cover"
+            />
+          </div>
             <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-3">Increased Efficiency</h3>
               <p className="text-gray-600">Unlock new levels of productivity through AI-driven solutions aligned to your existing workflows</p>
             </div>
-          </div>
+        </div>
 
-          {/* Second Row */}
-          <div className="flex flex-col md:flex-row-reverse items-center gap-8">
-            <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
-              <img 
-                src="/lovable-uploads/e2f0a8c6-e34d-466a-8c8b-cb0ec191a5db.png"
-                alt="Modern illustration showing data principles and security concepts"
-                className="w-full h-full object-cover"
-              />
-            </div>
+        {/* Second Row */}
+        <div className="flex flex-col md:flex-row-reverse items-center gap-8">
+          <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
+            <img 
+              src="/lovable-uploads/e2f0a8c6-e34d-466a-8c8b-cb0ec191a5db.png"
+              alt="Modern illustration showing cost optimization"
+              className="w-full h-full object-cover"
+            />
+          </div>
             <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-3">Cost Savings</h3>
               <p className="text-gray-600">Reduce operational costs by identifying the most impactful areas for intelligent process optimisation</p>
             </div>
-          </div>
+        </div>
 
-          {/* Third Row */}
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
-              <img 
-                src="/lovable-uploads/3b7b484b-8fe0-4833-860a-f2e75c2c6b5f.png"
-                alt="Abstract pattern showing interconnected systems and workflows"
-                className="w-full h-full object-cover"
-              />
-            </div>
+        {/* Third Row */}
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
+            <img 
+              src="/lovable-uploads/3b7b484b-8fe0-4833-860a-f2e75c2c6b5f.png"
+              alt="Abstract pattern showing enhanced experience"
+              className="w-full h-full object-cover"
+            />
+          </div>
             <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-3">Enhanced Experience</h3>
               <p className="text-gray-600">Boost customer satisfaction through the right mix of AI-powered interactions—whether chatbots, voice agents, or data-driven insights</p>
             </div>
-          </div>
+        </div>
 
-          {/* Fourth Row */}
-          <div className="flex flex-col md:flex-row-reverse items-center gap-8">
-            <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
-              <img 
-                src="/lovable-uploads/5dd65107-1c4c-4adc-ba8f-196443b975ec.png"
-                alt="Geometric illustration representing data insights and analytics"
-                className="w-full h-full object-cover transform rotate-180"
-              />
-            </div>
+        {/* Fourth Row */}
+        <div className="flex flex-col md:flex-row-reverse items-center gap-8">
+          <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
+            <img 
+              src="/lovable-uploads/8ca244df-ba6e-4523-b490-116246f70626.png"
+              alt="Geometric illustration representing data insights"
+              className="w-full h-full object-cover"
+            />
+          </div>
             <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-3">Better Insights</h3>
               <p className="text-gray-600">Make confident, data-driven decisions by leveraging advanced analytics customised to your business needs</p>
             </div>
-          </div>
         </div>
+      </div>
 
         <div className="text-center mt-16 mb-16">
           <p className="text-gray-600 text-lg">
             We help clients achieve one or all of these core benefits, depending on their unique goals and processes.
           </p>
         </div>
-      </div>
     </div>
   );
 };
