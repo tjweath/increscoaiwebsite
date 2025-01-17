@@ -30,7 +30,13 @@ const Hero = () => {
         <div className="space-y-24 max-w-[1000px] mx-auto">
           {/* First Row */}
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="w-full md:w-1/2 h-[400px] bg-gray-100 rounded-2xl"></div>
+            <div className="w-full md:w-1/2 h-[400px] rounded-2xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+                alt="Person working efficiently on a laptop"
+                className="w-full h-full object-cover"
+              />
+            </div>
             <div className="w-full md:w-1/2 p-6 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-4">Increased Efficiency</h3>
               <p className="text-gray-600">Unlock new levels of productivity through AI-driven solutions aligned to your existing workflows</p>
@@ -39,7 +45,13 @@ const Hero = () => {
 
           {/* Second Row */}
           <div className="flex flex-col md:flex-row-reverse items-center gap-12">
-            <div className="w-full md:w-1/2 h-[400px] bg-gray-100 rounded-2xl"></div>
+            <div className="w-full md:w-1/2 h-[400px] rounded-2xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+                alt="Modern robot representing cost savings through automation"
+                className="w-full h-full object-cover"
+              />
+            </div>
             <div className="w-full md:w-1/2 p-6 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-4">Cost Savings</h3>
               <p className="text-gray-600">Reduce operational costs by identifying the most impactful areas for intelligent process optimisation</p>
@@ -48,7 +60,13 @@ const Hero = () => {
 
           {/* Third Row */}
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="w-full md:w-1/2 h-[400px] bg-gray-100 rounded-2xl"></div>
+            <div className="w-full md:w-1/2 h-[400px] rounded-2xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+                alt="Group of people collaborating around video screens"
+                className="w-full h-full object-cover"
+              />
+            </div>
             <div className="w-full md:w-1/2 p-6 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-4">Enhanced Experience</h3>
               <p className="text-gray-600">Boost customer satisfaction through the right mix of AI-powered interactions—whether chatbots, voice agents, or data-driven insights</p>
@@ -57,7 +75,13 @@ const Hero = () => {
 
           {/* Fourth Row */}
           <div className="flex flex-col md:flex-row-reverse items-center gap-12">
-            <div className="w-full md:w-1/2 h-[400px] bg-gray-100 rounded-2xl"></div>
+            <div className="w-full md:w-1/2 h-[400px] rounded-2xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+                alt="Monitor showing programming code representing data insights"
+                className="w-full h-full object-cover"
+              />
+            </div>
             <div className="w-full md:w-1/2 p-6 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-4">Better Insights</h3>
               <p className="text-gray-600">Make confident, data-driven decisions by leveraging advanced analytics customised to your business needs</p>
