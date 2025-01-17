@@ -28,12 +28,12 @@ const Hero = () => {
         </div>
 
         <div className="space-y-8 max-w-[1000px] mx-auto">
-          {/* First Row - Keeping the original image */}
+          {/* First Row */}
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
-                alt="Person working efficiently on a laptop"
+                src="https://images.unsplash.com/photo-1633356122544-f134324a6cee"
+                alt="Abstract technological representation of efficiency"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -43,12 +43,12 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Second Row - Updated image */}
+          {/* Second Row */}
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40"
-                alt="Business analytics and cost optimization"
+                src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e"
+                alt="Abstract geometric shapes representing cost optimization"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -58,12 +58,12 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Third Row - Updated image */}
+          {/* Third Row */}
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978"
-                alt="Team collaboration and enhanced user experience"
+                src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7"
+                alt="Abstract representation of enhanced user experience"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -73,12 +73,12 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Fourth Row - Updated image */}
+          {/* Fourth Row */}
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
-                alt="Data visualization and business insights"
+                src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2"
+                alt="Abstract visualization of data insights"
                 className="w-full h-full object-cover"
               />
             </div>
