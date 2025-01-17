@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="/photo-1518770660439-4636190af475"
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475"
                 alt="Neural network visualization with interconnected nodes"
                 className="w-full h-full object-cover"
               />
@@ -47,7 +47,7 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="/photo-1461749280684-dccba630e2f6"
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
                 alt="Abstract data visualization representing AI processing"
                 className="w-full h-full object-cover"
               />
@@ -62,7 +62,7 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="/photo-1487058792275-0ad4aaf24ca7"
+                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
                 alt="Digital network visualization showing AI connections"
                 className="w-full h-full object-cover"
               />
@@ -77,7 +77,7 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="/photo-1531297484001-80022131f5a1"
+                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
                 alt="Abstract data visualization showing AI analytics"
                 className="w-full h-full object-cover"
               />
