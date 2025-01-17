@@ -27,8 +27,8 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="space-y-16 max-w-[1000px] mx-auto">
-          {/* First Row */}
+        <div className="space-y-8 max-w-[1000px] mx-auto">
+          {/* First Row - Keeping the original image */}
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
@@ -43,12 +43,12 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Second Row */}
+          {/* Second Row - Updated image */}
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
-                alt="Modern robot representing cost savings through automation"
+                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40"
+                alt="Business analytics and cost optimization"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -58,12 +58,12 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Third Row */}
+          {/* Third Row - Updated image */}
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
-                alt="Group of people collaborating around video screens"
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978"
+                alt="Team collaboration and enhanced user experience"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -73,12 +73,12 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Fourth Row */}
+          {/* Fourth Row - Updated image */}
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
-                alt="Monitor showing programming code representing data insights"
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+                alt="Data visualization and business insights"
                 className="w-full h-full object-cover"
               />
             </div>
