@@ -32,8 +32,8 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1633356122544-f134324a6cee"
-                alt="Abstract technological representation of efficiency"
+                src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d"
+                alt="Minimalist geometric pattern representing efficiency"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -47,8 +47,8 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e"
-                alt="Abstract geometric shapes representing cost optimization"
+                src="https://images.unsplash.com/photo-1553481187-be93c21490a9"
+                alt="Simple line art pattern representing cost optimization"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -62,8 +62,8 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7"
-                alt="Abstract representation of enhanced user experience"
+                src="https://images.unsplash.com/photo-1550859492-d5da9d8e45f3"
+                alt="Abstract line pattern representing enhanced experience"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -77,8 +77,8 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2"
-                alt="Abstract visualization of data insights"
+                src="https://images.unsplash.com/photo-1557683311-eac922347aa1"
+                alt="Minimalist geometric pattern representing data insights"
                 className="w-full h-full object-cover"
               />
             </div>
