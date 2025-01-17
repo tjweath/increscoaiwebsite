@@ -2,10 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="py-24 bg-gray-50" id="contact">
+    <section className="py-12 bg-gray-50" id="contact">
       <div className="max-w-[1200px] mx-auto px-6">
-        <h2 className="text-4xl font-medium text-center mb-16 text-gray-900">Get in Touch</h2>
-        <div className="flex flex-col items-center justify-center space-y-4">
+        <div className="flex flex-col items-center justify-center space-y-3">
           <a href="mailto:tim@increscoai.com" className="text-base text-gray-600 hover:text-gray-900 transition-colors flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
               <rect width="20" height="16" x="2" y="4" rx="2" />
