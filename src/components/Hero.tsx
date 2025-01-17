@@ -31,11 +31,9 @@ const Hero = () => {
           {/* First Row */}
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d"
-                alt="Minimalist geometric pattern representing efficiency"
-                className="w-full h-full object-cover"
-              />
+              <div className="w-full h-full flex items-center justify-center bg-gray-100">
+                <span className="text-gray-500 font-medium">IMAGE PENDING</span>
+              </div>
             </div>
             <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-3">Increased Efficiency</h3>
@@ -46,11 +44,9 @@ const Hero = () => {
           {/* Second Row */}
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1553481187-be93c21490a9"
-                alt="Simple line art pattern representing cost optimization"
-                className="w-full h-full object-cover"
-              />
+              <div className="w-full h-full flex items-center justify-center bg-gray-100">
+                <span className="text-gray-500 font-medium">IMAGE PENDING</span>
+              </div>
             </div>
             <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-3">Cost Savings</h3>
@@ -61,11 +57,9 @@ const Hero = () => {
           {/* Third Row */}
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1550859492-d5da9d8e45f3"
-                alt="Abstract line pattern representing enhanced experience"
-                className="w-full h-full object-cover"
-              />
+              <div className="w-full h-full flex items-center justify-center bg-gray-100">
+                <span className="text-gray-500 font-medium">IMAGE PENDING</span>
+              </div>
             </div>
             <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-3">Enhanced Experience</h3>
@@ -76,11 +70,9 @@ const Hero = () => {
           {/* Fourth Row */}
           <div className="flex flex-col md:flex-row-reverse items-center gap-8">
             <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1557683311-eac922347aa1"
-                alt="Minimalist geometric pattern representing data insights"
-                className="w-full h-full object-cover"
-              />
+              <div className="w-full h-full flex items-center justify-center bg-gray-100">
+                <span className="text-gray-500 font-medium">IMAGE PENDING</span>
+              </div>
             </div>
             <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-3">Better Insights</h3>
