@@ -39,7 +39,7 @@ const Hero = () => {
             </div>
             <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-3">Increased Efficiency</h3>
-              <p className="text-gray-600">Unlock new levels of productivity through AI-driven solutions aligned to your existing workflows</p>
+              <p className="text-gray-600">Unlock new levels of productivity through AI-driven solutions aligned to your existing workflows.</p>
             </div>
           </div>
 
@@ -54,7 +54,7 @@ const Hero = () => {
             </div>
             <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-3">Cost Savings</h3>
-              <p className="text-gray-600">Reduce operational costs by identifying the most impactful areas for intelligent process optimisation</p>
+              <p className="text-gray-600">Reduce operational costs by identifying the most impactful areas for intelligent process optimisation.</p>
             </div>
           </div>
 
@@ -69,7 +69,7 @@ const Hero = () => {
             </div>
             <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-3">Enhanced Experience</h3>
-              <p className="text-gray-600">Boost customer satisfaction through the right mix of AI-powered interactions—whether chatbots, voice agents, or data-driven insights</p>
+              <p className="text-gray-600">Boost customer satisfaction through the right mix of AI-powered interactions—whether chatbots, voice agents, or data-driven insights.</p>
             </div>
           </div>
 
@@ -84,7 +84,7 @@ const Hero = () => {
             </div>
             <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
               <h3 className="text-2xl font-medium text-gray-900 mb-3">Better Insights</h3>
-              <p className="text-gray-600">Make confident, data-driven decisions by leveraging advanced analytics customised to your business needs</p>
+              <p className="text-gray-600">Make confident, data-driven decisions by leveraging advanced analytics customised to your business needs.</p>
             </div>
           </div>
         </div>
