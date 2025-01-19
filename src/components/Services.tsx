@@ -30,14 +30,14 @@ const Services = () => {
 
         {/* Centered Cal.com button */}
         <div className="flex justify-center mb-16">
-          <a
-            href="https://cal.com/your-username/30min"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            data-cal-link="increscoai/incresco-ai-consultation"
+            data-cal-namespace="incresco-ai-consultation"
+            data-cal-config='{"layout":"month_view"}'
             className="px-8 py-4 bg-gradient-to-r from-emerald-500 to-teal-500 text-white rounded-lg font-medium hover:opacity-90 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-lg"
           >
             Transformation Call
-          </a>
+          </button>
         </div>
 
         {/* Second row of service boxes */}
