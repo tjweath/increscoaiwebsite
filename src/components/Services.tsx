@@ -9,7 +9,8 @@ const Services = () => {
           Discover innovative solutions to enhance customer engagement, optimise operations, and streamline processes with our AI services.
         </p>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        {/* First row of service boxes */}
+        <div className="grid md:grid-cols-2 gap-8 mb-16">
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <h3 className="text-2xl font-medium mb-2 text-white">Chatbots</h3>
             <h4 className="text-lg font-medium mb-4 text-white/80">Streamlined Customer Interactions</h4>
@@ -25,7 +26,22 @@ const Services = () => {
               Elevate your customer service with AI-driven voice agents. We configure, train, and deploy solutions that handle repetitive queries, schedule appointments, and assist customers—allowing your agents to focus on complex or high-impact requests.
             </p>
           </div>
+        </div>
 
+        {/* Centered Cal.com button */}
+        <div className="flex justify-center mb-16">
+          <a
+            href="https://cal.com/your-username/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-4 bg-gradient-to-r from-emerald-500 to-teal-500 text-white rounded-lg font-medium hover:opacity-90 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-lg"
+          >
+            Transformation Call
+          </a>
+        </div>
+
+        {/* Second row of service boxes */}
+        <div className="grid md:grid-cols-2 gap-8">
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <h3 className="text-2xl font-medium mb-2 text-white">AI Implementation & Integration</h3>
             <h4 className="text-lg font-medium mb-4 text-white/80">Transformative AI for Your Unique Needs</h4>
