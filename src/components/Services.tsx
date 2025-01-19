@@ -52,9 +52,9 @@ const Services = () => {
 
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <h3 className="text-2xl font-medium mb-2 text-white">Ongoing AI Partnership</h3>
-            <h4 className="text-lg font-medium mb-4 text-white/80">Long-Term Optimisation & Support</h4>
+            <h4 className="text-lg font-medium mb-4 text-white/80">Long-Term AI Support</h4>
             <p className="text-white/60">
-              Ensure your AI initiatives stay ahead of the curve with our continuous partnership plan. From performance monitoring and model retraining to feature expansions, we'll keep your AI solutions running at peak efficiency—so you can focus on growth without worrying about technical upkeep.
+              For businesses seeking a reliable AI ally beyond initial deployment, we offer flexible, ongoing support that adapts to your evolving goals. From routine performance checks to exploring new opportunities, our role is defined by your needs—so you can focus on growth and stay ahead in a rapidly changing AI landscape.
             </p>
           </div>
         </div>
