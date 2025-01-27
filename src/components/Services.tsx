@@ -31,8 +31,8 @@ const Services = () => {
         {/* Centered Cal.com button */}
         <div className="flex justify-center mb-8">
           <button
-            data-cal-link="increscoai/incresco-ai-consultation"
-            data-cal-namespace="incresco-ai-consultation"
+            data-cal-link="increscoai/incresco-ai-transformation"
+            data-cal-namespace="incresco-ai-transformation"
             data-cal-config='{"layout":"month_view"}'
             className="px-4 py-2 bg-gradient-to-r from-emerald-500 to-teal-500 text-white rounded-lg font-medium hover:opacity-90 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-lg"
           >

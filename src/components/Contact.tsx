@@ -21,8 +21,8 @@ const Contact = () => {
             LinkedIn
           </a>
           <button
-            data-cal-link="increscoai/incresco-ai-consultation"
-            data-cal-namespace="incresco-ai-consultation"
+            data-cal-link="increscoai/incresco-ai-transformation"
+            data-cal-namespace="incresco-ai-transformation"
             data-cal-config='{"layout":"month_view"}'
             className="text-base text-gray-600 hover:text-gray-900 transition-colors flex items-center gap-2 bg-transparent border-none cursor-pointer"
           >
