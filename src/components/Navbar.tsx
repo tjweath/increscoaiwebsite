@@ -6,6 +6,15 @@ const Navbar = () => {
     });
   };
 
+  const openCalendar = () => {
+    // @ts-ignore - Cal is added by the script
+    window.Cal?.("ui", {
+      styles: { branding: { brandColor: "#000000" } },
+      hideEventTypeDetails: false,
+      layout: "month_view"
+    });
+  };
+
   return (
     <nav className="fixed w-full z-50 px-6 py-4 bg-background/80 backdrop-blur-lg border-b">
       <div className="max-w-[1200px] mx-auto flex justify-between items-center">
@@ -18,6 +27,12 @@ const Navbar = () => {
           <a href="#services" className="text-foreground/70 hover:text-foreground transition-colors text-sm">SERVICES</a>
           <a href="#about" className="text-foreground/70 hover:text-foreground transition-colors text-sm">ABOUT</a>
           <a href="#contact" className="text-foreground/70 hover:text-foreground transition-colors text-sm">CONTACT</a>
+          <button 
+            onClick={openCalendar}
+            className="bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:opacity-90 transition-opacity"
+          >
+            Schedule a Call
+          </button>
         </div>
       </div>
     </nav>
