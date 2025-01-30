@@ -19,9 +19,9 @@ const Navbar = () => {
 
   const openCalendar = () => {
     if (window.Cal) {
-      window.Cal("init", "incresco-ai-transformation");
-      window.Cal("showModal", {
-        calLink: "increscoai/incresco-ai-transformation",
+      window.Cal("init", "incresco-ai-transformation-navbar");
+      window.Cal.ns["incresco-ai-transformation-navbar"]("showModal", {
+        calLink: "increscoai/incresco-ai-transformation-navbar",
         config: {
           hideEventTypeDetails: false,
           layout: "month_view"
