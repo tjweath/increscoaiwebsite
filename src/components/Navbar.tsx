@@ -1,3 +1,14 @@
+// Add type declaration for the Cal object on window
+declare global {
+  interface Window {
+    Cal?: {
+      (command: string, ...args: any[]): void;
+      loaded?: boolean;
+      ns?: Record<string, any>;
+    };
+  }
+}
+
 const Navbar = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -7,7 +18,6 @@ const Navbar = () => {
   };
 
   const openCalendar = () => {
-    // @ts-ignore - Cal is added by the script
     if (window.Cal) {
       window.Cal("init", "incresco-ai-transformation");
       window.Cal("showModal", {
