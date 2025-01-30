@@ -34,7 +34,7 @@ const Hero = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 items-center">
                 <div className="p-12 md:p-24 space-y-4">
                   <h3 className="text-2xl font-medium text-gray-900">Increased Efficiency</h3>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-gray-600 leading-relaxed max-w-[400px]">
                     Unlock new levels of productivity through AI-driven solutions aligned to your existing workflows.
                   </p>
                 </div>
