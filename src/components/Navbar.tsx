@@ -17,19 +17,6 @@ const Navbar = () => {
     });
   };
 
-  const openCalendar = () => {
-    if (window.Cal) {
-      window.Cal("init", "incresco-ai-transformation-navbar");
-      window.Cal.ns["incresco-ai-transformation-navbar"]("showModal", {
-        calLink: "increscoai/incresco-ai-transformation-navbar",
-        config: {
-          hideEventTypeDetails: false,
-          layout: "month_view"
-        }
-      });
-    }
-  };
-
   return (
     <nav className="fixed w-full z-50 px-6 py-4 bg-background/80 backdrop-blur-lg border-b">
       <div className="max-w-[1200px] mx-auto flex justify-between items-center">
@@ -43,7 +30,9 @@ const Navbar = () => {
           <a href="#about" className="text-foreground/70 hover:text-foreground transition-colors text-sm">ABOUT</a>
           <a href="#contact" className="text-foreground/70 hover:text-foreground transition-colors text-sm">CONTACT</a>
           <button 
-            onClick={openCalendar}
+            data-cal-link="increscoai/incresco-ai-transformation-navbar"
+            data-cal-namespace="incresco-ai-transformation-navbar"
+            data-cal-config='{"layout":"month_view"}'
             className="bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:opacity-90 transition-opacity"
           >
             Book a Call
