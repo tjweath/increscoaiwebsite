@@ -8,10 +8,12 @@ const Navbar = () => {
 
   const openCalendar = () => {
     // @ts-ignore - Cal is added by the script
-    window.Cal?.("ui", {
-      styles: { branding: { brandColor: "#000000" } },
-      hideEventTypeDetails: false,
-      layout: "month_view"
+    window.Cal?.("showModal", {
+      calLink: "increscoai/incresco-ai-transformation",
+      config: {
+        hideEventTypeDetails: false,
+        layout: "month_view"
+      }
     });
   };
 
