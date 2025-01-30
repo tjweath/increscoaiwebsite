@@ -46,7 +46,7 @@ const Navbar = () => {
             onClick={openCalendar}
             className="bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm hover:opacity-90 transition-opacity"
           >
-            Schedule a Call
+            Book a Call
           </button>
         </div>
       </div>
