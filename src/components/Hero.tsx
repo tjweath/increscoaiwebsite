@@ -30,15 +30,15 @@ const Hero = () => {
         <div className="space-y-24">
           {/* Increased Efficiency Section */}
           <div className="w-full bg-white">
-            <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
-              <div className="flex flex-col md:flex-row items-center gap-16 py-20">
-                <div className="w-full md:w-1/2 space-y-4">
+            <div className="max-w-[1920px] mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+                <div className="p-12 md:p-24 space-y-4">
                   <h3 className="text-2xl font-medium text-gray-900">Increased Efficiency</h3>
                   <p className="text-gray-600 leading-relaxed">
                     Unlock new levels of productivity through AI-driven solutions aligned to your existing workflows.
                   </p>
                 </div>
-                <div className="w-full md:w-1/2 h-[400px] rounded-xl overflow-hidden">
+                <div className="h-[600px]">
                   <img 
                     src="https://images.unsplash.com/photo-1518770660439-4636190af475"
                     alt="Neural network visualization with interconnected nodes"
@@ -51,20 +51,20 @@ const Hero = () => {
 
           {/* Cost Savings Section */}
           <div className="w-full bg-gray-50">
-            <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
-              <div className="flex flex-col md:flex-row-reverse items-center gap-16 py-20">
-                <div className="w-full md:w-1/2 space-y-4">
-                  <h3 className="text-2xl font-medium text-gray-900">Cost Savings</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Reduce operational costs by identifying the most impactful areas for intelligent process optimisation.
-                  </p>
-                </div>
-                <div className="w-full md:w-1/2 h-[400px] rounded-xl overflow-hidden">
+            <div className="max-w-[1920px] mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+                <div className="order-2 md:order-1 h-[600px]">
                   <img 
                     src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
                     alt="Abstract data visualization representing AI processing"
                     className="w-full h-full object-cover"
                   />
+                </div>
+                <div className="order-1 md:order-2 p-12 md:p-24 space-y-4">
+                  <h3 className="text-2xl font-medium text-gray-900">Cost Savings</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Reduce operational costs by identifying the most impactful areas for intelligent process optimisation.
+                  </p>
                 </div>
               </div>
             </div>
@@ -72,15 +72,15 @@ const Hero = () => {
 
           {/* Enhanced Experience Section */}
           <div className="w-full bg-white">
-            <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
-              <div className="flex flex-col md:flex-row items-center gap-16 py-20">
-                <div className="w-full md:w-1/2 space-y-4">
+            <div className="max-w-[1920px] mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+                <div className="p-12 md:p-24 space-y-4">
                   <h3 className="text-2xl font-medium text-gray-900">Enhanced Experience</h3>
                   <p className="text-gray-600 leading-relaxed">
                     Boost customer satisfaction through the right mix of AI-powered interactions—whether chatbots, voice agents, or data-driven insights.
                   </p>
                 </div>
-                <div className="w-full md:w-1/2 h-[400px] rounded-xl overflow-hidden">
+                <div className="h-[600px]">
                   <img 
                     src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
                     alt="Digital network visualization showing AI connections"
@@ -93,20 +93,20 @@ const Hero = () => {
 
           {/* Better Insights Section */}
           <div className="w-full bg-gray-50">
-            <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
-              <div className="flex flex-col md:flex-row-reverse items-center gap-16 py-20">
-                <div className="w-full md:w-1/2 space-y-4">
-                  <h3 className="text-2xl font-medium text-gray-900">Better Insights</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Make confident, data-driven decisions by leveraging advanced analytics customised to your business needs.
-                  </p>
-                </div>
-                <div className="w-full md:w-1/2 h-[400px] rounded-xl overflow-hidden">
+            <div className="max-w-[1920px] mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+                <div className="order-2 md:order-1 h-[600px]">
                   <img 
                     src="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
                     alt="Abstract data visualization showing AI analytics"
                     className="w-full h-full object-cover"
                   />
+                </div>
+                <div className="order-1 md:order-2 p-12 md:p-24 space-y-4">
+                  <h3 className="text-2xl font-medium text-gray-900">Better Insights</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Make confident, data-driven decisions by leveraging advanced analytics customised to your business needs.
+                  </p>
                 </div>
               </div>
             </div>
