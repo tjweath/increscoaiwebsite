@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="space-y-24">
+        <div>
           {/* Increased Efficiency Section */}
           <div className="w-full bg-white">
             <div className="max-w-[1920px] mx-auto">
