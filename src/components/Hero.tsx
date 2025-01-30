@@ -27,69 +27,77 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="space-y-8 max-w-[1000px] mx-auto">
-          {/* First Row */}
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
+        <div className="space-y-24 max-w-[1200px] mx-auto">
+          {/* Increased Efficiency Section */}
+          <div className="flex flex-col md:flex-row items-center gap-16">
+            <div className="w-full md:w-1/2 space-y-4">
+              <h3 className="text-2xl font-medium text-gray-900">Increased Efficiency</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Unlock new levels of productivity through AI-driven solutions aligned to your existing workflows.
+              </p>
+            </div>
+            <div className="w-full md:w-1/2 h-[400px] rounded-xl overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1518770660439-4636190af475"
                 alt="Neural network visualization with interconnected nodes"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
-              <h3 className="text-2xl font-medium text-gray-900 mb-3">Increased Efficiency</h3>
-              <p className="text-gray-600">Unlock new levels of productivity through AI-driven solutions aligned to your existing workflows.</p>
-            </div>
           </div>
 
-          {/* Second Row */}
-          <div className="flex flex-col md:flex-row-reverse items-center gap-8">
-            <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
+          {/* Cost Savings Section */}
+          <div className="flex flex-col md:flex-row-reverse items-center gap-16">
+            <div className="w-full md:w-1/2 space-y-4">
+              <h3 className="text-2xl font-medium text-gray-900">Cost Savings</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Reduce operational costs by identifying the most impactful areas for intelligent process optimisation.
+              </p>
+            </div>
+            <div className="w-full md:w-1/2 h-[400px] rounded-xl overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
                 alt="Abstract data visualization representing AI processing"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
-              <h3 className="text-2xl font-medium text-gray-900 mb-3">Cost Savings</h3>
-              <p className="text-gray-600">Reduce operational costs by identifying the most impactful areas for intelligent process optimisation.</p>
-            </div>
           </div>
 
-          {/* Third Row */}
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
+          {/* Enhanced Experience Section */}
+          <div className="flex flex-col md:flex-row items-center gap-16">
+            <div className="w-full md:w-1/2 space-y-4">
+              <h3 className="text-2xl font-medium text-gray-900">Enhanced Experience</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Boost customer satisfaction through the right mix of AI-powered interactions—whether chatbots, voice agents, or data-driven insights.
+              </p>
+            </div>
+            <div className="w-full md:w-1/2 h-[400px] rounded-xl overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
                 alt="Digital network visualization showing AI connections"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
-              <h3 className="text-2xl font-medium text-gray-900 mb-3">Enhanced Experience</h3>
-              <p className="text-gray-600">Boost customer satisfaction through the right mix of AI-powered interactions—whether chatbots, voice agents, or data-driven insights.</p>
-            </div>
           </div>
 
-          {/* Fourth Row */}
-          <div className="flex flex-col md:flex-row-reverse items-center gap-8">
-            <div className="w-full md:w-1/2 h-[350px] rounded-xl overflow-hidden">
+          {/* Better Insights Section */}
+          <div className="flex flex-col md:flex-row-reverse items-center gap-16">
+            <div className="w-full md:w-1/2 space-y-4">
+              <h3 className="text-2xl font-medium text-gray-900">Better Insights</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Make confident, data-driven decisions by leveraging advanced analytics customised to your business needs.
+              </p>
+            </div>
+            <div className="w-full md:w-1/2 h-[400px] rounded-xl overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
                 alt="Abstract data visualization showing AI analytics"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="w-full md:w-1/2 p-5 rounded-xl bg-white/80 backdrop-blur border border-emerald-100 shadow-sm">
-              <h3 className="text-2xl font-medium text-gray-900 mb-3">Better Insights</h3>
-              <p className="text-gray-600">Make confident, data-driven decisions by leveraging advanced analytics customised to your business needs.</p>
-            </div>
           </div>
         </div>
 
-        <div className="text-center mt-16 mb-16">
+        <div className="text-center mt-24 mb-16">
           <p className="text-gray-600 text-lg">
             We help clients achieve one or all of these core benefits, depending on their unique goals and processes.
           </p>
