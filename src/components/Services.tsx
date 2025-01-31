@@ -13,7 +13,7 @@ const Services = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/aa01dbd6-ee6e-42a3-921d-9af9f1ed88fc.png"
+              src="/lovable-uploads/c24c0d14-c26a-4735-962e-2c711a42e70c.png" 
               alt="Chatbot Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />
@@ -26,7 +26,7 @@ const Services = () => {
 
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/c19a2823-a196-4e16-9229-17be9d566979.png"
+              src="/lovable-uploads/e16868a7-9a65-4dc7-b214-134d2e2f53b9.png" 
               alt="Voice Agent Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />
@@ -42,7 +42,7 @@ const Services = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/676517e2-ac04-46aa-83b2-c0b8850ae972.png"
+              src="/lovable-uploads/948f1efe-812b-41b7-b9c6-18dd584a3874.png" 
               alt="Integration Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />
@@ -55,7 +55,7 @@ const Services = () => {
 
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/f5c4f0db-dc7e-4c78-bef8-e3f7060c181d.png"
+              src="/lovable-uploads/50191c4e-8be1-48de-8461-fccc8507c26f.png" 
               alt="Partnership Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />

@@ -40,7 +40,7 @@ const Hero = () => {
                 </div>
                 <div className="h-[600px]">
                   <img 
-                    src="/lovable-uploads/8ca244df-ba6e-4523-b490-116246f70626.png"
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475"
                     alt="Neural network visualization with interconnected nodes"
                     className="w-full h-full object-cover"
                   />
@@ -55,7 +55,7 @@ const Hero = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 items-center">
                 <div className="order-2 md:order-1 h-[600px]">
                   <img 
-                    src="/lovable-uploads/948f1efe-812b-41b7-b9c6-18dd584a3874.png"
+                    src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
                     alt="Abstract data visualization representing AI processing"
                     className="w-full h-full object-cover"
                   />
@@ -82,7 +82,7 @@ const Hero = () => {
                 </div>
                 <div className="h-[600px]">
                   <img 
-                    src="/lovable-uploads/e16868a7-9a65-4dc7-b214-134d2e2f53b9.png"
+                    src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
                     alt="Digital network visualization showing AI connections"
                     className="w-full h-full object-cover"
                   />
@@ -97,7 +97,7 @@ const Hero = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 items-center">
                 <div className="order-2 md:order-1 h-[600px]">
                   <img 
-                    src="/lovable-uploads/50191c4e-8be1-48de-8461-fccc8507c26f.png"
+                    src="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
                     alt="Abstract data visualization showing AI analytics"
                     className="w-full h-full object-cover"
                   />
