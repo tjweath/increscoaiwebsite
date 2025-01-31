@@ -13,7 +13,7 @@ const Services = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/aa01dbd6-ee6e-42a3-921d-9af9f1ed88fc.png" 
+              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
               alt="Chatbot Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />
@@ -26,7 +26,7 @@ const Services = () => {
 
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/c19a2823-a196-4e16-9229-17be9d566979.png" 
+              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
               alt="Voice Agent Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />
@@ -42,7 +42,7 @@ const Services = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/676517e2-ac04-46aa-83b2-c0b8850ae972.png" 
+              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
               alt="Integration Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />
@@ -55,7 +55,7 @@ const Services = () => {
 
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/f5c4f0db-dc7e-4c78-bef8-e3f7060c181d.png" 
+              src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
               alt="Partnership Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />
