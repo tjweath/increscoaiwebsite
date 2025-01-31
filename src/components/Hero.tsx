@@ -40,8 +40,8 @@ const Hero = () => {
                 </div>
                 <div className="h-[600px]">
                   <img 
-                    src="https://images.unsplash.com/photo-1518770660439-4636190af475"
-                    alt="Neural network visualization with interconnected nodes"
+                    src="/lovable-uploads/a167f41b-12f7-4227-93fa-beee92d4a022.png"
+                    alt="Multimodal AI model visualization showing interconnected nodes and patterns"
                     className="w-full h-full object-cover"
                   />
                 </div>
