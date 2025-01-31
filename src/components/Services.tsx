@@ -15,7 +15,7 @@ const Services = () => {
             <img 
               src="/lovable-uploads/c24c0d14-c26a-4735-962e-2c711a42e70c.png" 
               alt="Chatbot Icon" 
-              className="w-12 h-12 mb-4"
+              className="w-12 h-12 mb-4 filter brightness-0 invert object-contain"
             />
             <h3 className="text-2xl font-medium mb-2 text-white">Chatbots</h3>
             <h4 className="text-lg font-medium mb-4 text-white/80">Streamlined Customer Interactions</h4>
@@ -28,7 +28,7 @@ const Services = () => {
             <img 
               src="/lovable-uploads/e16868a7-9a65-4dc7-b214-134d2e2f53b9.png" 
               alt="Voice Agent Icon" 
-              className="w-12 h-12 mb-4"
+              className="w-12 h-12 mb-4 filter brightness-0 invert object-contain"
             />
             <h3 className="text-2xl font-medium mb-2 text-white">Voice Agents</h3>
             <h4 className="text-lg font-medium mb-4 text-white/80">Personalised, Hands-Free Support</h4>
@@ -44,7 +44,7 @@ const Services = () => {
             <img 
               src="/lovable-uploads/948f1efe-812b-41b7-b9c6-18dd584a3874.png" 
               alt="Integration Icon" 
-              className="w-12 h-12 mb-4"
+              className="w-12 h-12 mb-4 filter brightness-0 invert object-contain"
             />
             <h3 className="text-2xl font-medium mb-2 text-white">AI Implementation & Integration</h3>
             <h4 className="text-lg font-medium mb-4 text-white/80">Transformative AI for Your Unique Needs</h4>
@@ -57,7 +57,7 @@ const Services = () => {
             <img 
               src="/lovable-uploads/50191c4e-8be1-48de-8461-fccc8507c26f.png" 
               alt="Partnership Icon" 
-              className="w-12 h-12 mb-4"
+              className="w-12 h-12 mb-4 filter brightness-0 invert object-contain"
             />
             <h3 className="text-2xl font-medium mb-2 text-white">Ongoing AI Partnership</h3>
             <h4 className="text-lg font-medium mb-4 text-white/80">Long-Term AI Support</h4>
