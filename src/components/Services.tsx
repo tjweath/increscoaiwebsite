@@ -13,7 +13,7 @@ const Services = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/c24c0d14-c26a-4735-962e-2c711a42e70c.png" 
+              src="/lovable-uploads/76a88cb8-6178-44e3-a414-7cdde24391af.png" 
               alt="Chatbot Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />
