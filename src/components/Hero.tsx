@@ -55,8 +55,8 @@ const Hero = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 items-center">
                 <div className="order-2 md:order-1 h-[600px]">
                   <img 
-                    src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
-                    alt="Abstract data visualization representing AI processing"
+                    src="/lovable-uploads/41fcb820-0b7f-4533-961a-65279cf5971f.png"
+                    alt="Calculator on a desk with financial spreadsheet showing cost analysis"
                     className="w-full h-full object-cover"
                   />
                 </div>
