@@ -42,7 +42,7 @@ const Services = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/948f1efe-812b-41b7-b9c6-18dd584a3874.png" 
+              src="/lovable-uploads/bf14c70e-5f2d-474b-bcc7-943f8561df9d.png" 
               alt="Integration Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />
