@@ -26,7 +26,7 @@ const Services = () => {
 
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/e16868a7-9a65-4dc7-b214-134d2e2f53b9.png" 
+              src="/lovable-uploads/ef7a6962-6684-4e6d-b178-fa5f2c840c21.png" 
               alt="Voice Agent Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />
