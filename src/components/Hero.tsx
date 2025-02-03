@@ -97,8 +97,8 @@ const Hero = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 items-center">
                 <div className="order-2 md:order-1 h-[600px]">
                   <img 
-                    src="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
-                    alt="Abstract data visualization showing AI analytics"
+                    src="/lovable-uploads/8491f4e7-e18d-4776-82da-afcba3d99319.png"
+                    alt="Data analysis visualization showing charts and graphs with magnifying glass"
                     className="w-full h-full object-cover"
                   />
                 </div>
