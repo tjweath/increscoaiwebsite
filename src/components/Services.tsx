@@ -55,7 +55,7 @@ const Services = () => {
 
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/50191c4e-8be1-48de-8461-fccc8507c26f.png" 
+              src="/lovable-uploads/36c13563-d175-4c17-b2f8-59485e3378a0.png" 
               alt="Partnership Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />
