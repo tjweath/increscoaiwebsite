@@ -17,40 +17,31 @@
 
 <body>
   <div id="root"></div>
+  <!-- Load GPT Engineer script first -->
   <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+  
+  <!-- Load Cal.com script -->
+  <script src="https://app.cal.com/embed/embed.js" defer></script>
+  
+  <!-- Load main application script -->
   <script type="module" src="/src/main.tsx"></script>
+  
+  <!-- Initialize Cal.com after DOM is fully loaded -->
   <script type="text/javascript">
-    (function (C, A, L) { 
-      let p = function (a, ar) { a.q.push(ar); }; 
-      let d = C.document; 
-      C.Cal = C.Cal || function () { 
-        let cal = C.Cal; 
-        let ar = arguments; 
-        if (!cal.loaded) { 
-          cal.ns = {}; 
-          cal.q = cal.q || []; 
-          d.head.appendChild(d.createElement("script")).src = A; 
-          cal.loaded = true; 
-        } 
-        if (ar[0] === L) { 
-          const api = function () { p(api, arguments); }; 
-          const namespace = ar[1]; 
-          api.q = api.q || []; 
-          if(typeof namespace === "string") {
-            cal.ns[namespace] = cal.ns[namespace] || api;
-            p(cal.ns[namespace], ar);
-            p(cal, ["initNamespace", namespace]);
-          } else {
-            p(cal, ar); 
-          }
-          return;
-        } 
-        p(cal, ar); 
-      }; 
-    })(window, "https://app.cal.com/embed/embed.js", "init");
-
-    window.addEventListener('load', function() {
+    document.addEventListener('DOMContentLoaded', function() {
       try {
+        window.Cal = window.Cal || function() {
+          const cal = window.Cal;
+          const args = arguments;
+          if (!cal.loaded) {
+            cal.ns = {};
+            cal.q = cal.q || [];
+            cal.loaded = true;
+          }
+          cal.q.push(args);
+        };
+        
+        // Initialize Cal.com
         Cal("init", "incresco-ai-transformation-navbar", {origin:"https://cal.com"});
         Cal.ns["incresco-ai-transformation-navbar"]("ui", {
           "hideEventTypeDetails": false,
