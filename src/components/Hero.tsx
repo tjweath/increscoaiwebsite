@@ -6,7 +6,7 @@ const Hero = () => {
       </div>
       
       <div className="relative z-10 mx-auto px-4">
-        <div className="text-center mb-12 max-w-[1200px] mx-auto pt-16">
+        <div className="text-center mb-12 max-w-[1200px] mx-auto pt-32">
           <h1 className="text-5xl md:text-7xl font-medium tracking-tight text-gray-900 mb-6 max-w-[1000px] mx-auto leading-tight">
             Transformation with AI
           </h1>
