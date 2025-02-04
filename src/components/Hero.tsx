@@ -112,12 +112,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-
-        <div className="text-center mt-24 mb-16 max-w-[1200px] mx-auto">
-          <p className="text-gray-600 text-lg">
-            We help clients achieve one or all of these core benefits, depending on their unique goals and processes.
-          </p>
-        </div>
       </div>
     </div>
   );
