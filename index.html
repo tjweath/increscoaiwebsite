@@ -17,41 +17,65 @@
 
 <body>
   <div id="root"></div>
+  
   <!-- Load GPT Engineer script first -->
   <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
   
-  <!-- Load Cal.com script -->
-  <script src="https://app.cal.com/embed/embed.js" defer></script>
+  <!-- Initialize Cal.com -->
+  <script>
+    (function (C, A, L) {
+      let p = function (a, ar) {
+        a.q.push(ar);
+      };
+      let d = C.document;
+      C.Cal = C.Cal || function () {
+        let cal = C.Cal;
+        let ar = arguments;
+        if (!cal.loaded) {
+          cal.ns = {};
+          cal.q = cal.q || [];
+          d.head.appendChild(d.createElement("script")).src = A;
+          cal.loaded = true;
+        }
+        if (ar[0] === L) {
+          const api = function () {
+            p(api, arguments);
+          };
+          const namespace = ar[1];
+          api.q = api.q || [];
+          typeof namespace === "string" && (cal.ns[namespace] = api) && p(api, ar);
+          return;
+        }
+        p(cal, ar);
+      };
+    })(window, "https://app.cal.com/embed/embed.js", "init");
+  </script>
   
-  <!-- Load main application script -->
-  <script type="module" src="/src/main.tsx"></script>
-  
-  <!-- Initialize Cal.com after DOM is fully loaded -->
-  <script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', function() {
-      try {
-        window.Cal = window.Cal || function() {
-          const cal = window.Cal;
-          const args = arguments;
-          if (!cal.loaded) {
-            cal.ns = {};
-            cal.q = cal.q || [];
-            cal.loaded = true;
+  <!-- Initialize Cal.com configuration -->
+  <script>
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        try {
+          Cal("init", "incresco-ai-transformation-navbar", {
+            origin: "https://cal.com"
+          });
+          
+          // Only configure UI after initialization
+          if (Cal.ns["incresco-ai-transformation-navbar"]) {
+            Cal.ns["incresco-ai-transformation-navbar"]("ui", {
+              "hideEventTypeDetails": false,
+              "layout": "month_view"
+            });
           }
-          cal.q.push(args);
-        };
-        
-        // Initialize Cal.com
-        Cal("init", "incresco-ai-transformation-navbar", {origin:"https://cal.com"});
-        Cal.ns["incresco-ai-transformation-navbar"]("ui", {
-          "hideEventTypeDetails": false,
-          "layout": "month_view"
-        });
-      } catch (error) {
-        console.error('Cal.com initialization error:', error);
-      }
+        } catch (error) {
+          console.error('Cal.com initialization error:', error);
+        }
+      }, 1000); // Give some time for Cal.com script to fully load
     });
   </script>
+
+  <!-- Load main application script -->
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 
 </html>
