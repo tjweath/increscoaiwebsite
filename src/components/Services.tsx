@@ -39,7 +39,7 @@ const Services = () => {
         </div>
 
         {/* Second row of service boxes */}
-        <div className="grid md:grid-cols-2 gap-8 mb-8">
+        <div className="grid md:grid-cols-2 gap-8">
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
               src="/lovable-uploads/bf14c70e-5f2d-474b-bcc7-943f8561df9d.png" 
@@ -65,18 +65,6 @@ const Services = () => {
               For businesses seeking a reliable AI ally beyond initial deployment, we offer flexible, ongoing support that adapts to your evolving goals. From routine performance checks to exploring new opportunities, our role is defined by your needs—so you can focus on growth and stay ahead in a rapidly changing AI landscape.
             </p>
           </div>
-        </div>
-
-        {/* Centered Cal.com button */}
-        <div className="flex justify-center">
-          <button
-            data-cal-link="increscoai/incresco-ai-transformation"
-            data-cal-namespace="incresco-ai-transformation"
-            data-cal-config='{"layout":"month_view"}'
-            className="px-4 py-2 bg-gradient-to-r from-emerald-500 to-teal-500 text-white rounded-lg font-medium hover:opacity-90 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-lg"
-          >
-            Transformation Call
-          </button>
         </div>
       </div>
     </section>
