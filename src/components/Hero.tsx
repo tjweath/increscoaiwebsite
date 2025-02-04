@@ -82,8 +82,8 @@ const Hero = () => {
                 </div>
                 <div className="h-[600px]">
                   <img 
-                    src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
-                    alt="Digital network visualization showing AI connections"
+                    src="/lovable-uploads/00db4b89-deef-4024-92f8-e2fd10004ea1.png"
+                    alt="Various hardware tools and components including screws, anchors, and fasteners on a marble surface"
                     className="w-full h-full object-cover"
                   />
                 </div>
