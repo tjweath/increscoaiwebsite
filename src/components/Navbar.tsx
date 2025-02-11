@@ -27,13 +27,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full z-50 px-6 py-4 bg-background/80 backdrop-blur-lg border-b">
+    <nav className="fixed w-full z-50 px-6 py-6 md:py-8 bg-background/80 backdrop-blur-lg border-b">
       <div className="max-w-[1200px] mx-auto flex justify-between items-center">
         <div className="flex items-center gap-2">
           <img 
             src="/lovable-uploads/fc95ade5-fb16-4c0a-b730-09f8d469fe33.png" 
             alt="Incresco AI Logo" 
-            className="h-8 md:h-10"
+            className="h-10 md:h-14"
           />
         </div>
         
