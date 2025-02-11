@@ -1,3 +1,4 @@
+
 const Services = () => {
   return (
     <section className="py-24 bg-surface" id="services">
@@ -13,7 +14,7 @@ const Services = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="p-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             <img 
-              src="/lovable-uploads/76a88cb8-6178-44e3-a414-7cdde24391af.png" 
+              src="/lovable-uploads/0ade9580-8910-4c47-9e71-c6202a91aebe.png" 
               alt="Chatbot Icon" 
               className="w-6 h-6 mb-4 filter brightness-0 invert object-contain"
             />
